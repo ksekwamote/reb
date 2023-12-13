@@ -6470,7 +6470,7 @@ Shared section partners: Start
   display: flex;
   width: 4120px;
   overflow: visible;
-  animation: scroll 30s linear infinite;
+  animation: scroll 90s linear infinite;
 }
 .partner-five-col .list .bg-img {
   width: 140px !important;
