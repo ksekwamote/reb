@@ -621,7 +621,7 @@ Container: Start
 }
 
 .heading5 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 42px;
   text-transform: capitalize;
@@ -649,7 +649,7 @@ Container: Start
 
 .body2 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 28px;
 }
 
@@ -1302,6 +1302,10 @@ Container: Start
 
 .w-175 {
   width: 175px;
+}
+
+.w-150 {
+  width: 150px;
 }
 .w-100 {
   width: 100%;
@@ -6460,12 +6464,12 @@ Shared Layout some sections: End
 Shared section partners: Start
 */
 .partner-five-col {
-  overflow: hidden;
+  overflow: visible;
 }
 .partner-five-col .list {
   display: flex;
-  width: 3120px;
-  overflow: hidden;
+  width: 4120px;
+  overflow: visible;
   animation: scroll 30s linear infinite;
 }
 .partner-five-col .list .bg-img {
@@ -6513,7 +6517,7 @@ scroll auto
     transform: translateX(0);
   }
   to {
-    transform: translateX(-1560px);
+    transform: translateX(-4200px);
   }
 }
 /*
