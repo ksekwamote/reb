@@ -2,15 +2,15 @@
 /**/
 /*
 The sections Header(Header menu, Top nav), Footer, Slider, Services,
-News(Blogs), Testimonials will be CSS in the same area. The individual 
-sections will have separate CSS in each Home area. If you want to find 
-the CSS position of a certain section, look at its HTML file structure 
-first (look at their class, tag name, ...), then you can search by 
+News(Blogs), Testimonials will be CSS in the same area. The individual
+sections will have separate CSS in each Home area. If you want to find
+the CSS position of a certain section, look at its HTML file structure
+first (look at their class, tag name, ...), then you can search by
 title in the table of contents (Press Crtl + F to search).
 */
 /**/
 /**/
-/* 
+/*
 *
 *** Table of contents:
 -- Main color
@@ -37,7 +37,7 @@ title in the table of contents (Press Crtl + F to search).
 
 -- Services
 ---- Services Sections (Home1, home2, ...)
----- Service Detail Page (service-detail.html) 
+---- Service Detail Page (service-detail.html)
 
 -- Case Studies
 ---- Case Studies Page - Style 1 (case-studies-one.html)
@@ -101,12 +101,12 @@ title in the table of contents (Press Crtl + F to search).
 ---- Section Our Team (Shared with Home5)
 
 -- Shared List Questions (FAQs)
--- Shared List Pricing main 
+-- Shared List Pricing main
 -- List partners page
 
 -- Modal Video
 -- Shared Animation Filter Item
--- Shared Layout some sections 
+-- Shared Layout some sections
 (case-studies-detail: (Final outcome of this project), home3: (Registering and Using Online Banking Services))
 -- Shared section partners
 -- Scroll To Top Button
@@ -114,7 +114,7 @@ title in the table of contents (Press Crtl + F to search).
 -- Form contact main
 -- Form contact Home6
 
--- CTA 
+-- CTA
 ---- CTA Home2
 ---- CTA Home3
 ---- Section CTA: Take control of your financial future - Home4
@@ -151,7 +151,7 @@ title in the table of contents (Press Crtl + F to search).
   --black:  #000000;
 }
 
-/* 
+/*
 *
 *** Reset CSS: Start
 *
@@ -407,14 +407,14 @@ template {
   display: none;
 }
 
-/* 
+/*
 *
 *** Reset CSS: End
 *
 */
 /**/
 /**/
-/* 
+/*
 *
 Container: Start
 *
@@ -434,14 +434,14 @@ Container: Start
   }
 }
 
-/* 
+/*
 *
 *** Container: End
 *
 */
 /**/
 /**/
-/* 
+/*
 *
 *** Main class used in Finatex: Start
 *
@@ -1323,6 +1323,26 @@ Container: Start
   height: 60px;
 }
 
+.h-50{
+  height: 50%;
+}
+
+.h-25{
+  height: 25%;
+}
+
+.w-50{
+  width: 50%;
+}
+
+.h-0{
+  height: 0%;
+}
+
+.w-0{
+  width: 0%;
+}
+
 .w-48 {
   width: 48px;
 }
@@ -1646,7 +1666,7 @@ Container: Start
   }
 }
 
-/* 
+/*
 *
 *** Main class used in Finatex: End
 *
@@ -3186,7 +3206,7 @@ Section Slider Subpage Main: End
 /*
 *** Service item main: End
 */
-/* 
+/*
 *** List Benefit Home3: Start
 */
 .list-benefit-three {
@@ -3221,20 +3241,20 @@ Section Slider Subpage Main: End
   color: var(--gradient);
 }
 
-/* 
+/*
 *** List Benefit Home3: End
 */
-/* 
+/*
 Change icon color section Services Home3: Start
 */
 .service-block.style-about-two.style-three .list-service .service-item:hover .heading6 {
   color: var(--gradient);
 }
 
-/* 
+/*
 Change icon color section Services Home3: End
 */
-/* 
+/*
 *** Section Services About Us - Style 2: Start
 */
 .service-block.style-about-two .list-service .service-item:hover .heading6 {
@@ -3270,7 +3290,7 @@ Change icon color section Services Home3: End
   }
 }
 
-/* 
+/*
 *** Section Services About Us - Style 2: End
 */
 .service-tab-style .list-nav .nav-item {
@@ -4322,8 +4342,8 @@ Lastest Blogs - Home 6: Change color - End
 /*
 *** Blog Item: End
 */
-/* 
-*** Blog Detail - Style 1: Start 
+/*
+*** Blog Detail - Style 1: Start
 */
 .blog-list.style-detail li {
   list-style: disc;
@@ -4421,8 +4441,8 @@ Lastest Blogs - Home 6: Change color - End
   }
 }
 
-/* 
-*** Blog Detail - Style 1: End 
+/*
+*** Blog Detail - Style 1: End
 */
 /*
 *** Blog Detail - Style 2: Start
@@ -4720,9 +4740,15 @@ Section Benefit(Case Studies) Home1: Start
 .benefit-block.style-one .list-benefit .row > div .benefit-item:hover .text {
   bottom: 140px;
 }
+
+
+
 @media (max-width: 575.99px) {
   .benefit-block.style-one i.ph-caret-double-right {
     margin-top: 0 !important;
+  }
+  .benefit-block.style-one .list-benefit .row > div .benefit-item:hover .text {
+    bottom: 60px;
   }
 }
 
@@ -7079,7 +7105,7 @@ Responsive Footer: End
 Footer: End
 */
 /*
-Reduce font and spacing: Start 
+Reduce font and spacing: Start
 */
 @media (max-width: 767.99px) {
   html,

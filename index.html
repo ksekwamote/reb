@@ -2,6 +2,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta property="og:title" content="Risk Engineers Botswana (REB)">
+  <meta property="og:description" content="Future-Proof Your Business: Experience the REB Advantage in Comprehensive Risk Management">
+  <meta property="og:image" content="https://www.reb.co.bw/images/risk_slide_2.jpg">
+  <meta property="og:url" content="https://www.reb.co.bw">
+  <meta property="og:type" content="website">
+  <!-- Add more Open Graph meta tags as needed -->
+  
+  <!-- Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Risk Engineers Botswana">
+  <meta name="twitter:description" content="Empowering Businesses with Proven Risk Solutions: Your Path to Unrivaled Security.">
+  <meta name="twitter:image" content="https://www.reb.co.bw/images/risk_slide_2.jpg">
+  <!-- Add more Twitter Card meta tags as needed -->
+  
+
     <title>REB</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
@@ -37,6 +53,82 @@
         'GRAD' 0,
         'opsz' 24
       }
+
+
+      @media only screen and (max-width: 550px) {
+  .laptop {
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  #morupule{
+    content: url("./images/morupule_.jpg");
+  }
+  #ambatovy{
+    content: url("./images/ambatovy_.jpg");
+  }
+  #debswana{
+    content: url("./images/debswana_mine2_.jpg");
+  }
+  #premium{
+    content: url("./images/premium_.jpg");
+  }
+}
+      @media only screen and (min-width: 550px) {
+  .laptop {
+    display: block;
+  }
+  .mobile{
+    display: none;
+  }
+  #morupule{
+    content: url("./images/morupule.jpg");
+  }
+  #ambatovy{
+    content: url("./images/ambatovy.jpg");
+  }
+  #debswana{
+    content: url("./images/debswana_mine2.jpg");
+  }
+  #premium{
+    content: url("./images/premium.jpg");
+  }
+}
+
+.embed-container {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%; /* Aspect ratio (height:width) for 16:9 */
+      margin-bottom:  50px;
+      margin-top: 50px;
+    }
+
+    .embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .col-6 {
+      display: flex;
+    }
+
+    .footer-navigate {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .footer-nav-item {
+      flex: 1;
+      max-width: 50%; /* Two items in a row for medium and larger screens */
+      box-sizing: border-box;
+      padding-right: 20px; /* Adjust the spacing between items */
+    }
+
+
       </style>
   </head>
   <body>
@@ -131,12 +223,12 @@
       </div>
       <div class="partner-five-col style-one mt-4 bg-black">
         <div style="background-color: #EB6127; display: flex; justify-content: center; align-items: center;" >
-          <small style="color: white; text-align: center; font-size: x-small;" >NOTE : The Companies below signify diverse engagements: direct collaborations, individual interactions, and supporting roles with Risk Engineers Botswana (REB).</small>`
+          <small style="color: white; text-align: center; font-size: small;" > REB's Past Assignments</small>`
        
         </div>
         
         <div class="list">
-          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgb(255, 255, 255, 0.960)">
+          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgb(255, 255, 255, 0.920)">
             <h6 style="color: black;" >Mining</h6>
             <div style="display: flex; flex-direction: row;">
               <div class="bg-img flex-center"><img style="height: 50px;"  class="w-150" src="images/caralogos/debswana.png" alt=""></div>
@@ -145,13 +237,13 @@
             </div>
           </span>
           <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.980)">
-            <h6 style="color: black;" >Utilies</h6>
+            <h6 style="color: black;" >Utilities</h6>
             <div style="display: flex; flex-direction: row;">
               <div class="bg-img flex-center"><img style="height: 50px;" class="w-150" src="images/caralogos/bpc.png" alt=""></div>
-              <div class="bg-img flex-center"><img style="height: 50px;" class="w-150" src="images/caralogos/wuc.png" alt=""></div>
+              <div class="bg-img flex-center"><img style="height: 50px;" class="w-60" src="images/caralogos/wuc.png" alt=""></div>
             </div>
           </span>
-          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.960)">
+          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.920)">
             <h6 style="color: black;" >Beef</h6>
             <div style="display: flex; flex-direction: row;">
               <div class="bg-img flex-center"><img style="height: 50px;" class="w-150" src="images/caralogos/bmc.png" alt=""></div>
@@ -160,14 +252,15 @@
           <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.980)">
             <h6 style="color: black;" >Insurance</h6>
             <div style="display: flex; flex-direction: row;">
-              <div class="bg-img flex-center"><img style="height: 50px;" class="w-150" src="images/caralogos/sesiro.png" alt=""></div>
+              <div class="bg-img flex-center"><img style="height: 50px;" class="w-100" src="images/caralogos/sesiro.png" alt=""></div>
             </div>
           </span>
-          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.960)">
-            <h6 style="color: black;" >Fuel & Logistics</h6>
+          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.920)">
+            <h6 style="color: black;" >Transport & Logistics</h6>
             <div style="display: flex; flex-direction: row;">
-              <div class="bg-img flex-center"><img style="height: 50px;" class="w-150" src="images/caralogos/unitrans.jpg" alt=""></div>
+              <div class="bg-img flex-center"><img style="height: 50px;" class="w-150" src="images/caralogos/unitrans.png" alt=""></div>
               <div class="bg-img flex-center"><img style="height: 50px;" class="w-150" src="images/caralogos/crossroads.png" alt=""></div>
+              <div class="bg-img flex-center"><img style="height: 50px;" class="w-150" src="images/caralogos/alpha.png" alt=""></div>
             </div>
           </span>
           <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.980)">
@@ -177,27 +270,42 @@
               <div class="bg-img flex-center"><img style="height: 50px;" class="w-150" src="images/caralogos/fine.png" alt=""></div>
             </div>
           </span>
-          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.960)">
-            <h6 style="color: black;" >Tourism & Logistics</h6>
+          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 1)">
+            <h6 style="color: black;" >Tourism & Hospitality</h6>
             <div style="display: flex; flex-direction: row;">
               <div class="bg-img flex-center"><img style="height: 75px;" class="w-150" src="images/caralogos/elephant.jpg" alt=""></div>
               <div class="bg-img flex-center"><img style="height: 75px;" class="w-150" src="images/caralogos/manong.jpg" alt=""></div>
               <div class="bg-img flex-center"><img style="height: 75px;" class="w-150" src="images/caralogos/maunlodge.jpg" alt=""></div>
               <div class="bg-img flex-center"><img style="height: 75px;"  class="w-150" src="images/caralogos/safari.jpg" alt=""></div>
+              <div class="bg-img flex-center"><img style="height: 75px;"  class="w-150" src="images/caralogos/unchartered.png" alt=""></div>
+              <div class="bg-img flex-center"><img style="height: 75px;"  class="w-150" src="images/caralogos/trl.png" alt=""></div>
             </div>
           </span>
-          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.980)">
+          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.960)">
+            <h6 style="color: black;" >Foundries and Steel Rerolling Mills</h6>
+            <div style="display: flex; flex-direction: row;">
+              <div class="bg-img flex-center"><img style="height: 75px;" class="w-150" src="images/caralogos/reliance.png" alt=""></div>
+            </div>
+          </span>
+          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 1)">
+            <h6 style="color: black;" >Fast Moving Consumer Goods (FMCG) / Distribution </h6>
+            <div style="display: flex; flex-direction: row;">
+              <div class="bg-img flex-center"><img style="height: 75px;" class="w-150" src="images/caralogos/safari.png" alt=""></div>
+            </div>
+          </span>
+          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.960)">
             <h6 style="color: black;" >Construction & Commercial Real Estate </h6>
             <div style="display: flex; flex-direction: row;">
               <div class="bg-img flex-center"><img style="height: 75px;" class="w-175" src="images/caralogos/rdc.webp" alt=""></div>
               <div class="bg-img flex-center"><img style="height: 75px;" class="w-175" src="images/caralogos/universal.png" alt=""></div>
               <div class="bg-img flex-center"><img style="height: 75px;" class="w-175" src="images/caralogos/pula.png" alt=""></div>
+              <div class="bg-img flex-center"><img style="height: 75px;" class="w-175" src="images/caralogos/masa.png" alt=""></div>
             </div>
           </span>
-          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.960)">
+          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.920)">
             <h6 style="color: black;" >Telecommunications</h6>
             <div style="display: flex; flex-direction: row;">
-              <div class="bg-img flex-center"><img style="height: 75px;" class="w-175" src="images/caralogos/btc.png" alt=""></div>
+              <div class="bg-img flex-center"><img style="height: 75px;" class="w-50" src="images/caralogos/btc.png" alt=""></div>
             </div>
           </span>
           <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.980)">
@@ -206,7 +314,7 @@
               <div class="bg-img flex-center"><img style="height: 75px;" class="w-175" src="images/caralogos/g4s.png" alt=""></div>
             </div>
           </span>
-          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.960)">
+          <span style="display: flex; flex-direction: column; align-items: center; background-color:rgba(255, 255, 255, 0.920)">
             <h6 style="color: black;" >Manufacturing</h6>
             <div style="display: flex; flex-direction: row;">
               <div class="bg-img flex-center"><img style="height: 75px;" class="w-175" src="images/caralogos/lobatse.jpg" alt=""></div>
@@ -229,18 +337,8 @@
                         </div>
                         <div class="desc">
                           <div class="heading7 hover-text-orange">Enterprise Risk Management (ERM)</div>
-                          <div class="body3 text-secondary mt-4">Elevate your organizational risk maturity and resilience with our comprehensive Enterprise Risk Management Services. Underpinned by Enterprise-Wide Risk Assessments tailored to your unique business environment, we assist clients formulate risk response strategies supported by robust Framework, Strategies and Policies. </div>
-                        </div></a>
-                    </div>
-            </div>
-            <div class="col-12 col-xl-4 col-lg-6 col-md-6 col-sm-6">
-                    <div class="service-item hover-box-shadow bora-8 p-32 bg-white border-line-1px"><a class="service-item-main flex-column gap-16" href="service.html">
-                        <div class="heading flex-between"><h1>⚙️</h1>
-                          <div class="number heading3 text-placehover"> </div>
-                        </div>
-                        <div class="desc">
-                          <div class="heading7 hover-text-orange">Business Continuity Management (BCM) </div>
-                          <div class="body3 text-secondary mt-4">Our 4-in-1 BCM program assists clients to identify key loss scenarios across the value chain followed by the formulation of response strategies that encapsulates: Emergency Response Plan (ERP), Crisis Communication Plan (CCP), Disaster Recovery Plan (DRP), and Business Continuity Plan(BCP).  </div>
+                          <div class="body3 text-secondary mt-4 laptop">Elevate your organizational risk maturity and resilience with our comprehensive Enterprise Risk Management Services. Underpinned by Enterprise-Wide Risk Assessments tailored to your unique business environment, we assist clients formulate risk response strategies supported by robust Framework, Strategies and Policies. </div>
+                          <div class="body3 text-secondary mt-4 mobile">Elevate resilience with tailored risk assessments and effective response strategies.</div>
                         </div></a>
                     </div>
             </div>
@@ -250,19 +348,35 @@
                           <div class="number heading3 text-placehover"> </div>
                         </div>
                         <div class="desc">
-                          <div class="heading7 hover-text-orange">Risk Engineering & Insurance Advisory Solutions </div>
-                          <div class="body3 text-secondary mt-4">Our risk engineering & insurance solutions help businesses of all sizes across various sectors to optimize their processes, mitigate risks, improve safety, reduce claims, and associated costs. The end-to-end risk assessments are designed to identify risk exposures across material risk categories and assist clients in devising loss prevention / control strategies and risk financing. </div>
+                          <div class="heading7 hover-text-orange">Business Continuity Management (BCM) </div>
+                          <div class="body3 text-secondary mt-4 laptop">Our 4-in-1 BCM program assists clients to identify key loss scenarios across the value chain followed by the formulation of response strategies that encapsulates: Emergency Response Plan (ERP), Crisis Communication Plan (CCP), Disaster Recovery Plan (DRP), and Business Continuity Plan(BCP).  </div>
+                          <div class="body3 text-secondary mt-4 mobile">Identify key loss scenarios and formulate response strategies with our 4-in-1 BCM program.
+
+                          </div>
                         </div></a>
                     </div>
             </div>
             <div class="col-12 col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="service-item hover-box-shadow bora-8 p-32 bg-white border-line-1px"><a class="service-item-main flex-column gap-16" href="service.html">
-                        <div class="heading flex-between"><h1>🖥️</h1>
+                        <div class="heading flex-between"><h1>⚙️</h1>
+                          <div class="number heading3 text-placehover"> </div>
+                        </div>
+                        <div class="desc">
+                          <div class="heading7 hover-text-orange">Risk Engineering & Insurance Advisory Solutions </div>
+                          <div class="body3 text-secondary mt-4 laptop">Our risk engineering & insurance solutions help businesses of all sizes across various sectors to optimize their processes, mitigate risks, improve safety, reduce claims, and associated costs. The end-to-end risk assessments are designed to identify risk exposures across material risk categories and assist clients in devising loss prevention / control strategies and risk financing. </div>
+                          <div class="body3 text-secondary mt-4 mobile">Optimize processes, mitigate risks, and improve safety with our end-to-end risk assessments and insurance solutions.</div>
+                        </div></a>
+                    </div>
+            </div>
+            <div class="col-12 col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="service-item hover-box-shadow bora-8 p-32 bg-white border-line-1px"><a class="service-item-main flex-column gap-16" href="service.html">
+                        <div class="heading flex-between"><h1>🌐</h1>
                           <div class="number heading3 text-placehover"> </div>
                         </div>
                         <div class="desc">
                           <div class="heading7 hover-text-orange">Environmental Social Governance (ESG) Framework & Reporting</div>
-                          <div class="body3 text-secondary mt-4">The increased focus and emerging regulation on managing ESG issues make the implementation of ESG strategies not only integral component of responsible business practices, but a source of competitive advantage and long-term value creation. Our ESG solutions assist clients in determining their material ESG issues - their associated risks and opportunities, implementing frameworks and reporting standards.  </div>
+                          <div class="body3 text-secondary mt-4 laptop">The increased focus and emerging regulation on managing ESG issues make the implementation of ESG strategies not only integral component of responsible business practices, but a source of competitive advantage and long-term value creation. Our ESG solutions assist clients in determining their material ESG issues - their associated risks and opportunities, implementing frameworks and reporting standards.  </div>
+                          <div class="body3 text-secondary mt-4 mobile">Support responsible business practices, determine material ESG issues, and implement frameworks and reporting standards.</div>
                         </div></a>
                     </div>
             </div>
@@ -272,19 +386,21 @@
                           <div class="number heading3 text-placehover"> </div>
                         </div>
                         <div class="desc">
-                          <div class="heading7 hover-text-orange">Risk Management Training and Certification</div>
-                          <div class="body3 text-secondary mt-4">Empowering Minds, Securing Futures – REB's Training for Proactive Risk Leadership.</div>
+                          <div class="heading7 hover-text-orange">Risk Management Training</div>
+                          <div class="body3 text-secondary mt-4 mobile">Empowering Minds, Securing Futures – REB's Training for Proactive Risk Leadership.</div>
+                          <div class="body3 text-secondary mt-4 laptop">Empower your team with our comprehensive training programs. From foundational concepts to advanced strategies, we equip individuals with the knowledge and skills needed to make informed decisions, embed risk-aware decision-making company-wide, and enhance overall organizational resilience. Our engaging training modules are tailored to various roles and industries, ensuring a practical and impactful learning experience.</div>
                         </div></a>
                     </div>
             </div>
             <div class="col-12 col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="service-item hover-box-shadow bora-8 p-32 bg-white border-line-1px"><a class="service-item-main flex-column gap-16" href="service.html">
-                        <div class="heading flex-between"><h1>🧩</h1>
+                        <div class="heading flex-between"><h1>📊</h1>
                           <div class="number heading3 text-placehover"> </div>
                         </div>
                         <div class="desc">
                           <div class="heading7 hover-text-orange">Integrated Risk Reporting Framework </div>
-                          <div class="body3 text-secondary mt-4">Our comprehensive risk assessments determine key risks and loss scenarios which are critical inputs for developing risk models and interactive risk management dashboards. Our innovative dashboards serve as a visual gateway to your organization’s risk landscape, articulating risk appetite & tolerance levels by linking your risk profile, strategy, and performance – enabling scenario analysis to stress test the strategy and develop risk-adjusted capital planning strategies. </div>
+                          <div class="body3 text-secondary mt-4 laptop">Our comprehensive risk assessments determine key risks and loss scenarios which are critical inputs for developing risk models and interactive risk management dashboards. Our innovative dashboards serve as a visual gateway to your organization’s risk landscape, articulating risk appetite & tolerance levels by linking your risk profile, strategy, and performance – enabling scenario analysis to stress test the strategy and develop risk-adjusted capital planning strategies. </div>
+                          <div class="body3 text-secondary mt-4 mobile">Inform risk models and interactive dashboards, visualizing your organization’s risk landscape and enabling scenario analysis for risk-adjusted capital planning.</div>
                         </div></a>
                     </div>
             </div>
@@ -292,7 +408,7 @@
         </div>
       </div>
       <div id="proposition" class="payment-gateway-one mt-80 bg-surface">
-        <div class="bg-img"> <img class="w-100 h-100" src="images/risk_faq3.jpg" alt=""></div>
+        <div class="bg-img laptop"> <img class="w-100 h-100" src="images/risk_faq3.jpg" alt=""></div>
         <div class="container">
           <div class="row">
             <div class="col-12 col-xl-6">
@@ -313,7 +429,7 @@
           </div>
         </div>
       </div>
-      <div class="benefit-block style-one mt-60">
+      <div id="achievements" class="benefit-block style-one mt-60">
         <div class="container">
           <div class="heading text-center">
             <div class="heading3">Proven Track Record</div>
@@ -327,47 +443,54 @@
           <div class="row">
             <div class="col-12 col-xl-3 col-sm-6">
               <div class="benefit-item">
-                <div class="bg-img"> <img class="w-100 h-100 display-block" src="images/morupule.jpg" alt=""></div>
+                <div class="bg-img"> <img id="morupule" class="w-100 h-50 display-block" src="images/morupule.jpg" alt=""></div>
                 <div style="background-color: rgba(0, 0, 0, 0.5); padding: 15px; border-radius: 10%;" class="text flex-columns-between gap-12">
-                  <div class="heading5"><a class="text-white" href="/projects/bpc.html">BPC - 2019 to 2024</a></div>
-                  <div class="body3 text-white">Successfully interviewed & led risk
+                  <div class="heading6"><a class="text-white" href="/projects/bpc.html">BPC </a></div>
+                  <div class="body3 text-white laptop">Successfully interviewed & led risk
                     discussions with EXCO and Functional
                     heads to build a strategic risk profile and
                     risk management buy-in. </div><a class="flex-item-center gap-4" href="/projects/bpc.html">
-                    <div class="text-button text-white">Read More </div><i class="ph-bold ph-caret-double-right fs-12 mt-4 text-white"></i></a>
+                  <div class="body3 text-white mobile">Led risk
+                    discussions with EXCO and Functional
+                    heads to build a strategic risk profile. </div><a class="flex-item-center gap-4" href="/projects/bpc.html">
+                    <div style="color: #EB6127;" class="text-button text-white">Read More </div><i class="ph-bold ph-caret-double-right fs-12 mt-4 text-white"></i></a>
                 </div>
               </div>
             </div>
             <div  class="col-12 col-xl-3 col-sm-6">
               <div  class="benefit-item">
-                <div class="bg-img"> <img class="w-100 h-100 display-block" src="images/premium.jpg" alt=""></div>
+                <div class="bg-img"> <img id="premium" class="w-100 h-100 display-block" src="images/premium.jpg" alt=""></div>
                 <div style="background-color: rgba(0, 0, 0, 0.5); padding-inline: 15px; padding-bottom: 10px; border-radius: 10%;" class="text flex-columns-between gap-12">
-                  <div class="heading5"><a class="text-white" href="/projects/premium.html">PREMIUM NICKEL RESOURCES BOTSWANA –  DEC 2021</a></div>
-                  <div class="body3 text-white">Successfully Completed Risk-Based Plant & Machinery Valuation which Paved Way for the
+                  <div class="heading6"><a class="text-white" style="align-self: center;" href="/projects/premium.html">PREMIUM NICKEL RESOURCES BOTSWANA </a></div>
+                  <div class="body3 text-white laptop">Successfully Completed Risk-Based Plant & Machinery Valuation which Paved Way for the
                     Purchase of BCL’s Selibi and Selibi North Shafts.</div><a class="flex-item-center gap-4" href="/projects/premium.html">
-                    <div class="text-button text-white">Read More </div><i class="ph-bold ph-caret-double-right fs-12 mt-4 text-white"></i></a>
+                  <div class="body3 text-white mobile">Completed A Risk-Based Plant & Machinery Valuation paving a way for the
+                    Purchase of BCL.</div><a class="flex-item-center gap-4" href="/projects/premium.html">
+                    <div style="color: #EB6127;" class="text-button text-white">Read More </div><i class="ph-bold ph-caret-double-right fs-12 mt-4 text-white"></i></a>
                 </div>
               </div>
             </div>
             <div class="col-12 col-xl-3 col-sm-6">
               <div class="benefit-item">
-                <div class="bg-img"> <img class="w-100 h-100 display-block" src="images/ambatovy.jpg" alt=""></div>
+                <div class="bg-img"> <img id="ambatovy" class="w-100 h-100 display-block" src="images/ambatovy.jpg" alt=""></div>
                 <div style="background-color: rgba(0, 0, 0, 0.5); padding-inline: 15px; padding-bottom: 10px; border-radius: 10%;" class="text flex-columns-between gap-12">
-                  <div class="heading5"><a class="text-white" href="/projects/ambatovy.html">AMBATOVY NICKEL & COBALT MINE – 2018 & 2019</a></div>
-                  <div class="body3 text-white">Successfully Led the Risk Engineering Workstream that Involved Diverse
-                    Continents / Countries in a multi-national Risk
+                  <div class="heading6"><a class="text-white" href="/projects/ambatovy.html">AMBATOVY NICKEL & COBALT MINE </a></div>
+                  <div class="body3 text-white laptop">Successfully Led A Risk Engineering Workstream that Involved Diverse
+                    Continents / Countries in a multi-nationasl Risk
                     Engineering & Insurance Tender. </div><a class="flex-item-center gap-4" href="/projects/ambatovy.html">
-                    <div class="text-button text-white">Read More </div><i class="ph-bold ph-caret-double-right fs-12 mt-4 text-white"></i></a>
+                  <div class="body3 text-white mobile">Successfully Led the Risk Engineering Workstream in a multi-national Risk
+                    Engineering Tender. </div><a class="flex-item-center gap-4" href="/projects/ambatovy.html">
+                    <div style="color: #EB6127;" class="text-button text-white">Read More </div><i class="ph-bold ph-caret-double-right fs-12 mt-4 text-white"></i></a>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-xl-3 col-sm-6">
+            <div  class="col-12 col-xl-3 col-sm-6">
               <div class="benefit-item">
-                <div class="bg-img"> <img class="w-100 h-100 display-block" src="images/debswana_mine2.jpg" alt=""></div>
+                <div class="bg-img"> <img id="debswana" class="w-100 h-100 display-block" src="images/debswana_mine2.jpg" alt=""></div>
                 <div style="background-color: rgba(0, 0, 0, 0.5); padding: 15px; border-radius: 10%;" class="text flex-columns-between gap-12">
-                  <div class="heading5"><a class="text-white" href="case-studies-detail.html">DEBSWANA 2000-2014</a></div>
+                  <div class="heading6"><a class="text-white" href="case-studies-detail.html">DEBSWANA</a></div>
                   <div class="body3 text-white">Established Group Risk Function and Formulated Business Continuity Plans</div><a class="flex-item-center gap-4" href="service-detail.html">
-                    <div class="text-button text-white">Read More </div><i class="ph-bold ph-caret-double-right fs-12 mt-4 text-white"></i></a>
+                    <div style="color: #EB6127;" class="text-button text-white">Read More </div><i class="ph-bold ph-caret-double-right fs-12 mt-4 text-white"></i></a>
                 </div>
               </div>
             </div>
@@ -431,22 +554,22 @@
                             <h2 style="color: black;" class="title tg-element-title">Discover the Faces Behind<br>REB's Expertise.</h2>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="section-content">
-                            <p></p>
-                        </div>
-                    </div>
                 </div>
                 <div class="team-item-wrap">
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                             <div class="team-item">
-                                <div class="team-thumb">
+                                <div  class="team-thumb laptop">
                                     <img src="images/Team Photos/ramokgalo.jpg" alt="">
                                     
                                 </div>
                                 <div class="team-content">
+                                  <div  style="display: flex; justify-content: space-between; align-items: center; flex-direction: row;" >
                                     <h4 class="title"><a href="team_ramokgalo.html">Paul G Ramokgalo</a></h4>
+                                    <img class="mobile" style="width: 75px; height: 75px; border-radius: 100%;" src="images/Team Photos/ramokgalo.jpg" alt="">
+
+                                  </div>
+                              
                                     <span>Founder and CEO </span>
                                     <small>MSc/BA in Risk Management,
                                       (Scotland, UK), CMIRM (UK), AIISA (SA)
@@ -456,12 +579,17 @@
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                             <div class="team-item">
-                                <div class="team-thumb">
-                                    <img src="images/Team Photos/fantan.jpeg" alt="">
+                                <div class="team-thumb laptop">
+                                    <img src="images/Team Photos/mareledi.png" alt="">
                                     
                                 </div>
                                 <div class="team-content">
-                                    <h4 class="title"><a href="team_fantan.html">Mareledi M. Fantan</a></h4>
+                                    
+                                    <div  style="display: flex; justify-content: space-between; align-items: center; flex-direction: row;" >
+                                      <h4 class="title"><a href="team_fantan.html">Mareledi M. Fantan</a></h4>
+                                      <img class="mobile" style="width: 75px; height: 75px; border-radius: 100%;" src="images/Team Photos/mareledi.png" alt="">
+  
+                                    </div>
                                     <span>Executive Chairman</span>
                                     <small>BSc in Electrical and Electronics
                                       Engineering (England, UK)
@@ -471,13 +599,18 @@
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                             <div class="team-item">
-                                <div class="team-thumb">
+                                <div class="team-thumb laptop">
                                     <img src="images/Team Photos/thatayaone.jpg" alt="">
                                    
                                 </div>
                                 <div class="team-content">
-                                    <h4 class="title"><a href="team_sesinyi.html">Thatayaone Sesinyi</a></h4>
-                                    <span>COO</span>
+                                   
+                                    <div style="display: flex; justify-content: space-between; align-items: center; flex-direction: row;" >
+                                      <h4 class="title"><a href="team_sesinyi.html">Thatayaone Sesinyi</a></h4>
+                                      <img class="mobile" style="width: 75px; height: 75px; border-radius: 100%;" src="images/Team Photos/thatayaone.jpg" alt="">
+  
+                                    </div>
+                                    <span>Chief Operations Officer</span>
                                     <small>MEng/BEng in Chemical & Mineral
                                       Engineering (England, UK), MBA (Wales), ESG Specialist,
                                       COSO ERM Certified.</small>
@@ -486,11 +619,16 @@
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                             <div class="team-item">
-                                <div class="team-thumb">
+                                <div class="team-thumb laptop">
                                     <img src="images/Team Photos/khumo.jpeg" alt=""> 
                                 </div>
                                 <div class="team-content">
-                                    <h4 class="title"><a href="team_randall.html">Khumo Randall</a></h4>
+                                   
+                                    <div  style="display: flex; justify-content: space-between; align-items: center; flex-direction: row;" >
+                                      <h4 class="title"><a href="team_randall.html">Khumo Randall</a></h4>
+                                      <img class="mobile" style="width: 75px; height: 75px; border-radius: 100%;" src="images/Team Photos/khumo.jpeg" alt="">
+  
+                                    </div>
                                     <span>Risk & Mechatronics Engineer</span>
                                     <small> BEng in Mechatronics &
                                       Instrumentation Engineering (BIUST)</small>
@@ -503,7 +641,7 @@
             </div>
         </section>
 
-        <section class="consulting-area">
+        <section class="consulting-area laptop">
           <div class="container">
               <div class="row">
                   <div class="col-12">
@@ -590,7 +728,24 @@
                                         <div class="icon"><i class="fas fa-quote-right"></i></div>
                                     </div>
                                     <div style="margin-top: 5px;" class="testimonial-info">
-                                      <p>Victoria Tlamelo Tebelo (<small>General Manager Corporate Services(Botswana Ash)</small>)</p>
+                                      <p>Victoria Tlamelo Tebelo (<small>General Manager Corporate Services ,Botswana Ash</small>)</p>
+                                      <span></span>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    
+                                    <div class="testimonial-content">
+                                        <p style="font-weight: bold;">“Risk Engineers Botswana did brokering services and risk survey
+                                          respectively for my organisation, BTC. In all our interactions Paul displayed a high
+                                          level of professionalism, commitment and a result oriented professional.
+                                          I therefore have the full confidence that Paul will add value to your business if offered
+                                          any service to deliver.”</p>
+                                        <div class="icon"><i class="fas fa-quote-right"></i></div>
+                                    </div>
+                                    <div style="margin-top: 5px;" class="testimonial-info">
+                                      <p>Raymond Malope Molebatsi (<small>Head of Risk Management, BTC</small>)</p>
                                       <span></span>
                                   </div>
                                 </div>
@@ -612,11 +767,14 @@
                                 <div class="swiper-slide">
                                     <button><img src="images/botash.png" alt=""></button>
                                 </div>
+                                <div class="swiper-slide">
+                                    <button><img src="images/caralogos/btc_logo.png" alt=""></button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-8">
+                <div class="col-lg-6 col-md-8 laptop" >
                     <div class="testimonial-img-wrap">
                         <img src="images/customer-review.png" alt="">
                         <div class="img-shape">
@@ -637,7 +795,7 @@
         <!-- team-area-end -->
       <div id="faq" class="faqs-block style-one mt-100">
         <div class="row row-gap-32">
-          <div class="col-12 col-xl-6">
+          <div class="col-12 col-xl-6 laptop">
             <div class="bg-img"> <img src="images/risk_faq2.jpeg" alt=""></div>
             <div class="desc bg-blue flex-center">
               <div class="content gap-30"><i class="icon-hand-team icon-white"></i>
@@ -722,16 +880,12 @@
           <div class="heading3 text-center">Latest News</div>
           <div>
 
-            <div>
-              <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6932544063720026112" height="520" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        
+            <!-- <div class="embed-container">
+              <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6932544063720026112" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+            </div> -->
+            <div class="embed-container">
+              <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7109406663433969664" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
             </div>
-            <div>
-
-            </div>
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7109406663433969664" height="520" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-          
-
           </div>
           
           <!-- <div class="row row-gap-32 mt-40">
@@ -806,7 +960,7 @@
                     <div class="item-heading text-button-small text-white">Sections</div>
                     <ul class="list-nav mt-4">
                       <li class="mt-12"><a class="caption1 text-line hover-underline" href="index.html#services">Services</a></li>
-                      <li class="mt-12"><a class="caption1 text-line hover-underline" href="index.html#proposition">Value Proposition</a></li>
+                      <li class="mt-12"><a class="caption1 text-line hover-underline" href="index.html#achievements">Achievements</a></li>
                       <li class="mt-12"><a class="caption1 text-line hover-underline" href="index.html#testimonials">Testimonials</a></li>
                       <li class="mt-12"><a class="caption1 text-line hover-underline" href="index.html#faq">FAQ</a></li>
                     </ul>

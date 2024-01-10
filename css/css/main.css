@@ -576,12 +576,12 @@ textarea {
   padding: 250px 0 0;
   position: relative;
   z-index: 1;
-  margin-top: -130px;
+  margin-top: 0px;
   overflow: hidden;
 }
 @media (max-width: 767.98px) {
   .testimonial-area {
-    padding: 230px 0 0;
+    padding: 30px 0 0;
   }
 }
 .testimonial__area-two {
@@ -663,7 +663,7 @@ textarea {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .testimonial-img-wrap .img-shape img:nth-child(2) {
     left: 5%;
-    width: 90px;
+    width: 60px;
     top: 13%;
   }
 }
@@ -711,7 +711,7 @@ textarea {
 @media (max-width: 1199.98px) {
   .testimonial__img-shape-two img:nth-child(1) {
     left: -2%;
-    width: 100px;
+    width: 70px; /*90*/
   }
 }
 @media (max-width: 767.98px) {
@@ -1314,9 +1314,7 @@ textarea {
     17. Team
 ===============================*/
 @media (max-width: 767.98px) {
-  .team-area {
-    padding: 100px 0 70px;
-  }
+  
 }
 .team__area-two {
   position: relative;
